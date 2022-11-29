@@ -53,3 +53,21 @@ docker image ls
 ```bash
 docker container run --name webserver -d -p 80:80 nginx
 ```
+
+## ngnix 서버 상태 확인
+
+```bash
+docker container ps
+```
+
+## 컨테이너 가동 확인
+
+```bash
+docker container stats webserver
+```
+
+## 컨테이너 정지
+
+```bash
+docker container stop webserver
+```
